@@ -20,7 +20,7 @@ pool:
 variables:
   - group: devopsforai-aml-vg
   - name: WORKSPACE_SKU # https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml#sku
-    value: basic
+    value: enterprise
 
 steps:
   - task: AzureResourceGroupDeployment@2
